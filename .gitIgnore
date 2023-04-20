@@ -1,0 +1,39 @@
+# Arquivos de compilação e configuração
+*.dll
+*.exe
+*.pdb
+*.user
+*.aps
+*.appxmanifest
+*.csproj.user
+*.obj
+*.cache
+*.log
+*.suo
+*.sln.docstates
+*.sln.ide
+*.ipch/
+*.opensdf
+*.VC.opendb
+# Arquivos de saída de build
+bin/
+obj/
+# Arquivos temporários
+[Tt]emp/
+obj/
+# Arquivos de pacote NuGet
+*.nupkg
+# Arquivos de análise de código e relatórios
+*.code-workspace
+*.vs/
+*.code-workspace
+*.sln.docstates.json
+*.sln.ide.json
+*.sln.ide.workspace.json
+*.sln.nuget.cache.json
+*.sln.nuget.props.json
+*.sln.nuget.targets.json
+*.sln.packages.lock.json
+# Arquivos de configuração do Visual Studio
+*.vscode/
+*.vs/
