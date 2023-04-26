@@ -15,12 +15,18 @@ class Aula13{
 
         media=(p1+p2)/2;
 
-        if(media<40){
-            resultado="Reprovado";
-        } else if(media<60){
-            resultado="Recuperação";
+        if(media>=60){
+            if(media>=90){
+                resultado="Aprovado com louvor!";
+            }else{
+                resultado="Aprovado";
+            }
         }else{
-            resultado="Aprovado";
+            if(media>=40){
+                resultado="Recuperação";
+            }else{
+                resultado="Reprovado";
+            }
         }
 
         Console.WriteLine("Média: {0} - Resultado: {1}", media, resultado);
