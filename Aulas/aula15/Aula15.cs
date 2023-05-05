@@ -1,8 +1,9 @@
 using System;
 
-class Aula15{
-    static void Main (){
-
+class Aula15
+{
+    static void Main ()
+    {
         int tempo=0;
         char escolha=' ';
 
@@ -34,17 +35,24 @@ class Aula15{
                 break;
         }
 
-        if(tempo<0){
+        if(tempo<0)
+        {
             Console.WriteLine("Transporte indisponível!");
-        }else{
+        }
+        else
+        {
             Console.WriteLine("Tempo para o transporte escolhido é {0} minutos", tempo);
         }
 
         Console.Write("Calcular outro transporte?[s/n]: ");
         escolha=char.Parse(Console.ReadLine());
-        if(escolha=='s' || escolha=='S'){
+
+        if(escolha=='s' || escolha=='S')
+        {
             goto inicio;
-        }else{
+        }
+        else
+        {
             Console.Clear();
             Console.WriteLine("Fim do programa");
         }

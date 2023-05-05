@@ -1,9 +1,10 @@
 using System;
 
-class Aula05{
+class Aula05
+{
 
-    static void Main(){
-
+    static void Main()
+    {
         // & = AND / E
         // | = OR / OU 
 

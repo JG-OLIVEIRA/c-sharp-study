@@ -1,7 +1,9 @@
 using System;
 
-class Aula19{
-    static void Main(){
+class Aula19
+{
+    static void Main()
+    {
 
         int[] num = new int[10];
 

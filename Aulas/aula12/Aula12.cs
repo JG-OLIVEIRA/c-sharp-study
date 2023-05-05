@@ -1,8 +1,9 @@
 using System;
 
-class Aula12{
-    static void Main(){
-
+class Aula12
+{
+    static void Main()
+    {
         int p1, p2, res;
         p1=p2=res=0;
         string resultado="Reprovado";

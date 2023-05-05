@@ -1,7 +1,9 @@
 using System;
 
-class Aula16{
-    static void Main(){
+class Aula16
+{
+    static void Main()
+    {
         int[] n1=new int[5];
         int[] n2=new int[4]{55, 66, 77, 88};
         string[] veiculos=new string[3];

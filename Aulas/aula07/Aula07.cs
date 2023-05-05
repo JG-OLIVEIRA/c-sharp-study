@@ -1,7 +1,9 @@
 using System;
 
-class Aula07{
-    static void Main(){
+class Aula07
+{
+    static void Main()
+    {
         const string canal = "CFB CURSOS";
         const double pi = 3.1415;
 

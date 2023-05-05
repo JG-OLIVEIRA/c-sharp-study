@@ -1,8 +1,9 @@
 using System;
 
-class Aula13{
-    static void Main(){
-
+class Aula13
+{
+    static void Main()
+    {
         int p1, p2, media;
         p1=p2=media=0;
         string resultado = "Aprovado";
@@ -15,16 +16,25 @@ class Aula13{
 
         media=(p1+p2)/2;
 
-        if(media>=60){
-            if(media>=90){
+        if(media>=60)
+        {
+            if(media>=90)
+            {
                 resultado="Aprovado com louvor!";
-            }else{
+            }
+            else
+            {
                 resultado="Aprovado";
             }
-        }else{
-            if(media>=40){
+        }
+        else
+        {
+            if(media>=40)
+            {
                 resultado="Recuperação";
-            }else{
+            }
+            else
+            {
                 resultado="Reprovado";
             }
         }

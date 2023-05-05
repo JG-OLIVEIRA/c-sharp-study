@@ -1,7 +1,9 @@
 using System;
 
-class Aula17{
-    static void Main(){
+class Aula17
+{
+    static void Main()
+    {
         int[,] n1=new int[3,5];
         int[,] n2=new int[2,2]{{10,20}, {30, 40}};
 

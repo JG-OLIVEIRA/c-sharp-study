@@ -1,13 +1,15 @@
 using System;
 
-class Aula20{
-    static void Main(){
-
+class Aula20
+{
+    static void Main()
+    {
         string password="passwordaula20";
         string checkPassword = "";
         int attempts = 0;
 
-        do{
+        do
+        {
             Console.Clear();
             Console.Write("Digite a senha: ");
             checkPassword = Console.ReadLine();
@@ -15,6 +17,5 @@ class Aula20{
         }while(password!=checkPassword);
 
         Console.WriteLine("Senha correta! Número de tentativas: {0}", attempts);
-
     }
 }
