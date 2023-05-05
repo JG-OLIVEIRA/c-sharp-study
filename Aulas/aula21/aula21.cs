@@ -14,7 +14,8 @@ class Aula21
         } // loop for que já conhecemos
         */
 
-        foreach(int n in num){
+        foreach(int n in num)
+        {
             Console.WriteLine(n);
         }
 

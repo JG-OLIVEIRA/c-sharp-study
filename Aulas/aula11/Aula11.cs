@@ -4,7 +4,6 @@ class aula11
 {
     static void Main()
     {
-
         // Conversões implícitas
         int vInt = 10;
         float vFloat = vInt;

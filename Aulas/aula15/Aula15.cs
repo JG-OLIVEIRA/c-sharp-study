@@ -17,7 +17,8 @@ class Aula15
         Console.Write("Opção: ");
         escolha=char.Parse(Console.ReadLine());
 
-        switch(escolha){
+        switch(escolha)
+        {
             case 'A':
             case 'a':
                 tempo=50;

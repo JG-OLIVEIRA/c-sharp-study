@@ -14,6 +14,7 @@ class Aula19
             Console.WriteLine(num[i]);
             i--;
         }
+
         Console.WriteLine("Fim do loop!");
     }
 }
