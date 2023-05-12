@@ -7,6 +7,13 @@ class Conta
     public string titular;
     public double saldo;
 
+    public Conta(string titular)
+    {
+        Random rand = new Random();
+        this.numero = rand.GetHashCode();
+        this.titular = titular;
+    }
+
     public Conta(string titular, double saldo)
     {
         Random rand = new Random();
